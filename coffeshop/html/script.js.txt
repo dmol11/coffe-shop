@@ -1,0 +1,3 @@
+document.addEventListener("DOMContentLoaded", function() {
+    alert("¡Bienvenido a Coffe Shop! Descubre nuestros platos dominicanos y ecuatorianos.");
+});
