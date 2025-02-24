@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop - Comida Dominicana y Ecuatoriana</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Coffe Shop</h1>
+        <p>Auténtica comida dominicana y ecuatoriana en Queens, NY</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#cultura">Cultura Gastronómica</a></li>
+            <li><a href="#politica">Normas y Regulaciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="menu">
+        <h2>🍽️ Nuestro Menú</h2>
+        <div class="menu-container">
+            <div class="plato">
+                <img src="images/mangu.jpg" alt="Mangú Dominicano">
+                <h3>Mangú con Los Tres Golpes</h3>
+                <p>$10.99 - Plátano majado con queso frito, salami y huevo.</p>
+            </div>
+            <div class="plato">
+                <img src="images/bolon.jpg" alt="Bolón de Verde">
+                <h3>Bolón de Verde con Queso</h3>
+                <p>$9.99 - Plátano verde frito relleno de queso o chicharrón.</p>
+            </div>
+            <div class="plato">
+                <img src="images/pernil.jpg" alt="Pernil al Horno">
+                <h3>Pernil al Horno</h3>
+                <p>$15.99 - Pernil jugoso con moro de gandules y tostones.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Coffe Shop | Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
