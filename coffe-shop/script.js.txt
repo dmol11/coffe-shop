@@ -1,0 +1,33 @@
+document.addEventListener("DOMContentLoaded", () => {
+  // Animación de bienvenida
+  setTimeout(() => {
+    alert("¡Bienvenido a Coffe Shop! Disfruta nuestra auténtica comida dominicana y ecuatoriana.");
+  }, 1000);
+
+  // Formulario de reserva
+  const form = document.getElementById("form-reserva");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    // Validación simple
+    const inputs = form.querySelectorAll("input, textarea");
+    let valido = true;
+
+    inputs.forEach(input => {
+      if (input.hasAttribute("required") && !input.value.trim()) {
+        valido = false;
+        input.style.border = "2px solid red";
+      } else {
+        input.style.border = "1px solid #ccc";
+      }
+    });
+
+    if (valido) {
+      alert("¡Reserva enviada! Nos pondremos en contacto contigo para confirmar.");
+      form.reset();
+    } else {
+      alert("Por favor, completa todos los campos obligatorios.");
+    }
+  });
+});

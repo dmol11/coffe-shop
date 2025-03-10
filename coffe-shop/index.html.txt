@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffe Shop - Comida Dominicana y Ecuatoriana</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Coffe Shop</h1>
+    <p>Comida Dominicana y Ecuatoriana con sabor auténtico en Queens</p>
+    <a href="#menu" class="btn">Ver Menú</a>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#reserva">Reservar</a></li>
+      <li><a href="#mapa">Ubicación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="menu">
+    <h2><i class="fas fa-utensils"></i> Nuestro Menú</h2>
+    <div class="menu-grid">
+      <!-- <!-- 🥞 DESAYUNOS -->
+<div class="menu-category"><h3><i class="fas fa-coffee"></i> Desayunos</h3></div>
+
+<div class="menu-item"><h4>Mangú con los Tres Golpes</h4><p>Plátano majado con queso, salami y huevo frito.</p><span>$10.99</span></div>
+<div class="menu-item"><h4>Bolón de Verde con Queso</h4><p>Masa de plátano frito rellena de queso o chicharrón.</p><span>$9.99</span></div>
+<div class="menu-item"><h4>Tigrillo Ecuatoriano</h4><p>Plátano verde majado con huevo, queso y cebolla.</p><span>$8.50</span></div>
+<div class="menu-item"><h4>Humitas Ecuatorianas</h4><p>Masa de maíz dulce al vapor con queso fresco.</p><span>$7.50</span></div>
+<div class="menu-item"><h4>Arepa Dominicana con Chocolate</h4><p>Torta de maíz dulce con chocolate caliente.</p><span>$7.99</span></div>
+
+<!-- 🍛 ALMUERZOS -->
+<div class="menu-category"><h3><i class="fas fa-drumstick-bite"></i> Almuerzos</h3></div>
+
+<div class="menu-item"><h4>La Bandera Dominicana</h4><p>Arroz, habichuelas, carne guisada y ensalada.</p><span>$12.99</span></div>
+<div class="menu-item"><h4>Sancocho Dominicano</h4><p>Guiso espeso con carnes, yuca, plátano y verduras.</p><span>$14.99</span></div>
+<div class="menu-item"><h4>Seco de Pollo Ecuatoriano</h4><p>Pollo en salsa con arroz y maduro frito.</p><span>$13.99</span></div>
+<div class="menu-item"><h4>Churrasco Ecuatoriano</h4><p>Bistec con arroz, huevo y papas.</p><span>$15.99</span></div>
+<div class="menu-item"><h4>Pernil al Horno</h4><p>Pernil jugoso con moro y tostones.</p><span>$15.99</span></div>
+
+<!-- 🍽 CENAS -->
+<div class="menu-category"><h3><i class="fas fa-hamburger"></i> Cenas</h3></div>
+
+<div class="menu-item"><h4>Mofongo con Camarones</h4><p>Plátano majado con camarones en salsa.</p><span>$16.50</span></div>
+<div class="menu-item"><h4>Pollo al Horno con Ensalada</h4><p>Pechuga horneada con ensalada y arroz blanco.</p><span>$14.50</span></div>
+<div class="menu-item"><h4>Seco de Chivo</h4><p>Chivo guisado estilo ecuatoriano con arroz y papas.</p><span>$15.99</span></div>
+<div class="menu-item"><h4>Ensalada de Mariscos</h4><p>Mezcla de camarones, pulpo y calamar con limón.</p><span>$17.99</span></div>
+<div class="menu-item"><h4>Bistec Encebollado</h4><p>Bistec de res con cebolla, arroz y habichuelas.</p><span>$13.99</span></div>
+
+<!-- 🌮 ANTOJITOS -->
+<div class="menu-category"><h3><i class="fas fa-bread-slice"></i> Antojitos</h3></div>
+
+<div class="menu-item"><h4>Empanadas Dominicanas</h4><p>Pollo, res o queso. Crocantes y doradas.</p><span>$3.50 c/u</span></div>
+<div class="menu-item"><h4>Yaniqueques</h4><p>Fritura típica dominicana rellena o sola.</p><span>$4.99</span></div>
+<div class="menu-item"><h4>Quipes (Kipes)</h4><p>Carne molida con trigo y especias.</p><span>$5.99</span></div>
+<div class="menu-item"><h4>Bolas de Yuca con Queso</h4><p>Yuca frita rellena con queso fundido.</p><span>$7.99</span></div>
+<div class="menu-item"><h4>Ceviche de Camarón</h4><p>Estilo ecuatoriano con cebolla morada y limón.</p><span>$12.99</span></div>
+
+<!-- 🥤 BEBIDAS -->
+<div class="menu-category"><h3><i class="fas fa-glass-martini-alt"></i> Bebidas Naturales</h3></div>
+
+<div class="menu-item"><h4>Jugo de Maracuyá</h4><p>Natural y refrescante.</p><span>$5.50</span></div>
+<div class="menu-item"><h4>Batido de Lechosa</h4><p>Papaya con leche o agua.</p><span>$6.50</span></div>
+<div class="menu-item"><h4>Chicha Dominicana</h4><p>Bebida tradicional de maíz.</p><span>$5.99</span></div>
+<div class="menu-item"><h4>Morocho Ecuatoriano</h4><p>Bebida espesa de arroz con leche y canela.</p><span>$4.99</span></div>
+<div class="menu-item"><h4>Malta Morena / Cola Champagne</h4><p>Bebidas tradicionales.</p><span>$3.50</span></div>
+
+<!-- 🍰 POSTRES -->
+<div class="menu-category"><h3><i class="fas fa-ice-cream"></i> Postres</h3></div>
+
+<div class="menu-item"><h4>Dulce de Leche Cortada</h4><p>Postre típico dominicano.</p><span>$4.99</span></div>
+<div class="menu-item"><h4>Helado de Guanábana</h4><p>Helado artesanal tropical.</p><span>$5.50</span></div>
+<div class="menu-item"><h4>Tres Leches</h4><p>Bizcocho suave con crema.</p><span>$6.50</span></div>
+<div class="menu-item"><h4>Majarete</h4><p>Postre cremoso a base de maíz y leche.</p><span>$4.50</span></div>
+<div class="menu-item"><h4>Flan de Coco</h4><p>Flan casero con sabor caribeño.</p><span>$5.50</span></div>
+ -->
+    </div>
+  </section>
+
+  <section id="reserva">
+    <h2><i class="fas fa-calendar-check"></i> Reserva tu Mesa</h2>
+    <form id="form-reserva">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="tel" placeholder="Teléfono" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="datetime-local" required>
+      <textarea placeholder="Comentarios o solicitud especial"></textarea>
+      <button type="submit" class="btn">Enviar Reserva</button>
+    </form>
+  </section>
+
+  <section id="mapa">
+    <h2><i class="fas fa-map-marker-alt"></i> ¿Dónde estamos?</h2>
+    <p>144-12 Jamaica Ave, Queens, NY</p>
+    <div class="mapa-box">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.690735229314!2d-73.80410068459407!3d40.70168564520669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c260c27b2b206d%3A0x83097b46da66c9cc!2s144-12%20Jamaica%20Ave%2C%20Queens%2C%20NY%2011335!5e0!3m2!1ses!2sus!4v1708448400000"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2><i class="fas fa-envelope"></i> Contáctanos</h2>
+    <p>Email: info@coffeshop.com</p>
+    <p>Teléfono: +1 234 567 890</p>
+    <p>WhatsApp: <a href="https://wa.me/1234567890" target="_blank">Haz tu pedido aquí</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Coffe Shop. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
